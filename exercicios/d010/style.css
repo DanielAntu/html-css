@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+body {
+    background-color: #fff42b8a;
+}
+
+header {
+    background-image: linear-gradient(to top, #0BB566, #0FF589);
+    color: white;
+    padding: 10px;
+    margin: -9px;
+}
+
+header > h1 {
+    text-align: center;
+}
+
+header > p {
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+    background-color: #0CB066;
+}
+
+main {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+@font-face {
+    font-family: android;
+    src: url(fontes/idroid.otf) format('opentype');
+    
+}
+
+.historia {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+.historia > p {
+    text-indent: 30px;
+}
+
+.historia > h2 {
+    font-family: android, sans-serif, Arial;
+    color: #077542;
+}
+
+.historia > h3 {
+    color: #077542;
+    background-image: linear-gradient(to right, #0FF589, white);
+    font-family: android;
+}
+
+.historia > picture {
+    padding: auto;
+    margin: auto;
+}
+
+.video {
+    background-color: #087041;
+}
+
+.destaque {
+    color: #0abd69;
+    padding: 10px;
+    margin: 10px;
+}
+
+.destaque > iframe {
+    padding: 10px;
+    margin: 10px;
+    border: #087041;
+}
+
+.novos {
+    background-color: white;
+}
+
+.novos > article {
+    background-color: #72cfa5de;
+}
+
+article > h2 {
+    background-color: #0da05e;
+    color: white;
+}
+
+.novos > p {
+    text-indent: 30px;
+}
+
+article > p {
+    text-indent: 30px;
+}
+
+article > nav {
+    color: black;
+}
