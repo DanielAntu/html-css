@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframe</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça sua escolha</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis alias animi dolores aut nisi laboriosam adipisci iusto laudantium non. Dolore, debitis ea? Architecto, obcaecati suscipit. Placeat quis nam minus consequatur?</p>
+
+    <ul>
+        <li><a href="paginasextras/pagina001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginasextras/pagina002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginasextras/pagina003.html" target="frame">Terceira página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum aspernatur aperiam, reiciendis tempora explicabo magni qui. Perferendis numquam consectetur similique dicta minima exercitationem dolores minus nostrum a, distinctio adipisci alias. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias officia facilis sapiente impedit omnis quis officiis quibusdam rerum amet quisquam odio doloremque, neque perferendis, dolorem ullam, architecto ipsa maxime eius.</p>
+
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opções acima</h1> <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>" frameborder="0">
+        <p>Infelizmente seu navegador não é compativel com isso</p>
+    </iframe>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat autem quis vitae vel maiores architecto eum eaque laudantium ratione explicabo ipsum amet, corporis odio! At voluptatem voluptate suscipit ratione vero? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae nisi commodi deserunt autem. Quas, non quis consequatur commodi sequi doloribus iure. Dolore nam quasi veniam rem sit velit, est consequuntur.</p>
+</body>
+</html>
