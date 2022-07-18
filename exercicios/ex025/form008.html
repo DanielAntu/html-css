@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Exemplos de formulários</h1>
+    <form action="cadastro.php">
+        <p>
+            <label for="ix1">Número 1:</label>
+            <input type="number" name="x1" id="ix1" required oninput="isoma.innerHTML = Number(ix1.value) + Number(ix2.value)">
+        </p>
+
+        <p>
+            <label for="ix2">Número 2:</label>
+            <input type="number" name="x2" id="ix2" required oninput="isoma.innerHTML = Number(ix1.value) + Number(ix2.value)">>
+        </p>
+
+        <label for="isoma">Soma: </label>
+        <output name="soma" id="isoma">0</output>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
